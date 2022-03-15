@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Wall
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -11,10 +13,10 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Wall
+  - Passable Wall
+  - Player
+  - Sensor
   - 
   - 
   - 
@@ -38,6 +40,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 3953698387
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Frontground
+    uniqueID: 3780408303
+    locked: 0
+  - name: UI
+    uniqueID: 1116345987
     locked: 0
